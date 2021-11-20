@@ -7,7 +7,7 @@ body {
 }
 #unity-container.unity-desktop {
 	width: 100%;
-	height: 90%;
+	height: 95vh;
 }
 #unity-container.unity-mobile {
 	width: 100%;
@@ -45,7 +45,8 @@ body {
 	background: url("progress-bar-full-dark.png") no-repeat center;
 }
 #unity-footer {
-	position: relative;
+	width: 100%;
+	height: 5vh;
 }
 .unity-mobile #unity-footer {
 	display: none;
