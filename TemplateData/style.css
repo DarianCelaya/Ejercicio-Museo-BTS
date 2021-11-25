@@ -1,3 +1,9 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Shippori Antique', sans-serif; */
+/* font-family: 'Shippori Antique B1', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
 :root {
 	--red: #510985;
 	--black: #252a34;
@@ -63,6 +69,7 @@ body {
 	width: 204px;
 	height: 38px;
 	background: url("webgl-logo.png") no-repeat center;
+	color: red;
 }
 #unity-build-title {
 	float: right;
@@ -73,9 +80,11 @@ body {
 }
 #unity-fullscreen-button {
 	float: right;
-	width: 38px;
-	height: 38px;
-	background: url("fullscreen-button.png") no-repeat center;
+	width: 30px;
+	height: 30px;
+	background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyB0cmFuc2Zvcm09IiI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9IiMyMDEyNWUiPjwvcGF0aD48ZyBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMjEuNSwyMS41djQzbDE2LjQzMjk0LC0xNi40MzI5NGwyNS43OTcyLDI1Ljc5NzJsMTAuMTM0MTIsLTEwLjEzNDEybC0yNS43OTcyLC0yNS43OTcybDE2LjQzMjk0LC0xNi40MzI5NHpNMTA3LjUsMjEuNWwxNi40MzI5NCwxNi40MzI5NGwtMjUuNzk3MjEsMjUuNzk3MmwxMC4xMzQxMiwxMC4xMzQxMmwyNS43OTcyLC0yNS43OTcybDE2LjQzMjk0LDE2LjQzMjk0di00M3pNNjMuNzMwMTQsOTguMTM1NzRsLTI1Ljc5NzIsMjUuNzk3MjFsLTE2LjQzMjk0LC0xNi40MzI5NHY0M2g0M2wtMTYuNDMyOTQsLTE2LjQzMjk0bDI1Ljc5NzIsLTI1Ljc5NzJ6TTEwOC4yNjk4Niw5OC4xMzU3NGwtMTAuMTM0MTIsMTAuMTM0MTJsMjUuNzk3MjEsMjUuNzk3MmwtMTYuNDMyOTQsMTYuNDMyOTRoNDN2LTQzbC0xNi40MzI5NCwxNi40MzI5NHoiPjwvcGF0aD48L2c+PC9nPjwvZz48L3N2Zz4=")
+		no-repeat center;
+	/* background: url("fullscreen-button.png") no-repeat center; */
 }
 #unity-mobile-warning {
 	position: absolute;
@@ -113,6 +122,7 @@ body {
 	font-size: 50px;
 	color: white;
 	font-weight: 200;
+	font-family: "Nunito Sans", Helvetica, sans-serif;
 }
 
 .img-header .welcome hr {
@@ -201,6 +211,7 @@ body {
 	color: var(--black);
 	text-align: left;
 	margin-bottom: 20px;
+	font-family: "Shippori Antique B1", Helvetica, bold;
 }
 
 .acerca-de .info-container p {
