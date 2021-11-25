@@ -214,6 +214,18 @@ body {
 	font-family: "Shippori Antique B1", Helvetica, bold;
 }
 
+h2,
+.section-game {
+	font-family: "Shippori Antique B1", Helvetica, bold;
+}
+.section-game {
+	margin-left: 15px;
+}
+
+.card-title {
+	color: rgb(137, 2, 247);
+}
+
 .acerca-de .info-container p {
 	font-size: 17px;
 	color: var(--black);
@@ -486,4 +498,20 @@ tr {
 .footer .footer-content .footer-text p {
 	color: #fff;
 	font-size: 20px;
+}
+
+.bi-dpad,
+.bi-joystick,
+.bi-box-arrow-right,
+.bi-mouse-fill,
+.bi-arrows-angle-expand {
+	color: rgb(64, 4, 107);
+}
+
+.card-body {
+	background-color: rgb(235, 235, 235);
+}
+
+.info {
+	color: rgb(64, 4, 107);
 }
