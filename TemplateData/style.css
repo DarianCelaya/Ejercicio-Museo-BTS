@@ -209,7 +209,6 @@ body {
 	text-align: left;
 	line-height: 35px;
 	margin: 10px 10px;
-	background-color: aqua;
 }
 
 .acerca-de .info-container .about-gallery {
@@ -259,4 +258,85 @@ body {
 
 .nav-link a {
 	color: springgreen;
+}
+
+/*Nuestros Productos*/
+
+.our-projects {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #20125e;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin-top: 100px;
+}
+
+/*.our-projects .deg-background{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+	}*/
+
+.our-projects .ejezproject {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.our-projects .container-project {
+	width: 98%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.our-projects .container-project .project-title {
+	border: 2px solid white;
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.our-projects .container-project .project-title h2 {
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+}
+
+.our-projects .container-project .project-title hr {
+	background: white;
+	width: 50%;
+	margin: 10px auto;
+}
+
+.our-projects .container-project .project-img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	padding-bottom: 100px;
+}
+
+.our-projects .container-project .project-img img {
+	width: calc(30% - 10px);
+	margin: 10px;
+	object-fit: cover;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+table {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+tr {
+	align-items: center;
+	text-align: center;
 }
